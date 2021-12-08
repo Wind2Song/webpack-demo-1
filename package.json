@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "webpack": "4",
+    "webpack-cli": "3"
+  },
+  "scripts": {
+    "build": "rm -rf dist && webpack"
+  }
+}
