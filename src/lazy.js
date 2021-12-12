@@ -1,1 +1,0 @@
-export default function lazy(){console.log('i\'m a lazy module')}
