@@ -11,7 +11,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-    title: 'Development',
+    title: 'webpai',
     template: 'src/assets/index.html' // 引用这个路径的模板HTML文件 生成dist HTML文件
   }),
   ],
