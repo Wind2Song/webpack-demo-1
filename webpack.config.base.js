@@ -15,4 +15,23 @@ module.exports = {
     template: 'src/assets/index.html' // 引用这个路径的模板HTML文件 生成dist HTML文件
   }),
   ],
+  module:{
+    rules:{
+      test: /\.scss$/i,
+      use: [
+        'style-loader',
+        'css-loader',
+        {
+          test: /\.less$/,
+          loader: ["style-loader", "css-loader", "less-loader"]
+        },
+        {
+          loader: 'sass-loader',
+          options: {
+            implementation: require('dart-sass')
+          }
+        }
+      ]
+    }
+  }
 };
