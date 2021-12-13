@@ -1,13 +1,13 @@
 import x from './x.js'
 import png from './assets/meidusha.png'
-console.log(png)
+// console.log(png)
 
-const div = document.getElementById('233')
-console.log(div)
-div.innerHTML = `
-<img src="${png}">
-<img src="https://img.zcool.cn/community/0148f05c76bebaa801213f269036a4.jpg@2o.jpg">
-`
+// const div = document.getElementById('233')
+// console.log(div)
+// div.innerHTML = `
+// <img src="${png}">
+// <img src="https://img.zcool.cn/community/0148f05c76bebaa801213f269036a4.jpg@2o.jpg">
+// `
 
 const button = document.createElement('button')
 button.innerText = '懒加载'
